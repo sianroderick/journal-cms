@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0c719316f721a1479574861e45e40c96",
+    "hash": "484fe16573006a079944b5767d61c045",
     "content-hash": "3babcab956a9b851d32c84fb40f63976",
     "packages": [
         {
@@ -1581,7 +1581,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/migrate_plus.git",
-                "reference": "38283b8c9d5b47b72be3bba5ba5ef21a6b1ac0f1"
+                "reference": "348ffadc25800662a7fd8c3ace68f587782fee70"
             },
             "require": {
                 "drupal/core": "8.*"
@@ -1615,7 +1615,7 @@
             ],
             "description": "Enhancements to core migration support",
             "homepage": "https://www.drupal.org/project/migrate_plus",
-            "time": "2016-09-17 21:14:32"
+            "time": "2016-09-21 18:57:39"
         },
         {
             "name": "drupal/migrate_tools",
