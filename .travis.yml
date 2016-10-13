@@ -9,14 +9,12 @@ mysql:
   encoding: utf8
 
 before_install:
+  - curl https://puli.io/installer | php
   - echo 'sendmail_path = /bin/true' >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
   - composer --verbose self-update
-  - composer --version
 
 install:
   - composer --verbose install
-  # We require coveralls like this as it won't work straight from composer.json.
-  - composer require satooshi/php-coveralls
 
 before_script:
   - cp $TRAVIS_BUILD_DIR/config/travis.settings.php $TRAVIS_BUILD_DIR/config/local.settings.php

@@ -253,8 +253,7 @@
         },
         "guzzle/guzzle": {
             "install-path": "vendor/guzzle/guzzle",
-            "installer": "composer",
-            "env": "dev"
+            "installer": "composer"
         },
         "guzzlehttp/guzzle": {
             "install-path": "vendor/guzzlehttp/guzzle",
@@ -443,8 +442,7 @@
         },
         "satooshi/php-coveralls": {
             "install-path": "vendor/satooshi/php-coveralls",
-            "installer": "composer",
-            "env": "dev"
+            "installer": "composer"
         },
         "sebastian/comparator": {
             "install-path": "vendor/sebastian/comparator",
@@ -593,8 +591,7 @@
         },
         "symfony/stopwatch": {
             "install-path": "vendor/symfony/stopwatch",
-            "installer": "composer",
-            "env": "dev"
+            "installer": "composer"
         },
         "symfony/translation": {
             "install-path": "vendor/symfony/translation",
