@@ -4,6 +4,7 @@
  * @file
  * Contains jcms_notifications.module.
  */
+
 use Drupal\Core\Routing\RouteMatchInterface;
 
 /**
@@ -20,4 +21,3 @@ function jcms_notifications_help($route_name, RouteMatchInterface $route_match) 
     default:
   }
 }
- 

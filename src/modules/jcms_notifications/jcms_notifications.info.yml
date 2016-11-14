@@ -2,4 +2,4 @@ name: JCMS Notifications
 type: module
 description: Integrates with Amazon SQS and Amazon SNS.
 core: 8.x
-package: eLife
+package: Journal CMS

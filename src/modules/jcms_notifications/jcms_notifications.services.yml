@@ -7,4 +7,3 @@ services:
   jcms_notifications.article_crud_service:
     class: Drupal\jcms_notifications\ArticleCrud
     arguments: ["@jcms_notifications.fetch_article_service", "@entity_type.manager"]
-
